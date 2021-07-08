@@ -1,0 +1,147 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: #008080;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    box-shadow: 0px 0px 10px #000;
+}
+.tabs ul{
+    margin:0;
+    padding:20;
+    position:absolute;
+    list-style: none;
+    height:60px;
+    margin-left: 40%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+.tabs ul li{
+ 
+    display: inline-block;
+}
+.tabs ul li a{
+    display: block;
+    padding:10px 28px;
+    color:white;
+    text-decoration: none;
+    transition: 1s all;
+}
+.tabs a:hover, .active a{
+    color:yellow;
+    background-color: gray;
+    border-radius: 10px;
+}
+.tabs a:hover::after{
+    content: '';
+    display:block;
+    width: 100%;
+    height: 2px;
+    background-color: yellow;
+}
+.logo img{
+ 
+    padding: 10px 0 0 10px;
+    width: 200px;
+    height: 70px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: 30px;
+    float:left;
+    object-position: top;
+    image-rendering: optimizeQuality ;
+}
+.gallery{
+    width: 95%;
+    margin: 40px;
+    text-align: center;
+    background-position: center;
+}
+.gallery h2{
+    text-transform: uppercase;
+    font-size: 60px;
+    font-family:'Courier New', Courier, monospace;
+    text-align:center;
+    margin-bottom: 30px;
+}
+.gallery img{
+    height:500px;
+    width: 95%;
+    background-color: teal;
+    background-size: cover;
+    background-repeat:no-repeat;
+    margin-bottom: 100px;
+    box-shadow: 10px 10px 20px #000;
+}
+.footer{
+    height: 400px;
+    background-color: rgb(10, 10, 10);
+}
+.donate img, .fa img{
+    height: 150px;
+    width: 350px;
+    background-size:contain ;
+    background-repeat: no-repeat;
+    float:left;
+    object-position: top;
+    image-rendering:crisp-edges ;
+    margin: 30px;
+}
+.socialtxt h3{
+    color:#fff;
+    text-align: center;
+    padding: 50px 30 30 30;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.socialbtns{
+    float:right;
+    height: 40px;
+    width: 390px;
+}
+.facebook img{
+    height: 50px;
+    width: 50px;
+    background-size:contain;
+    background-repeat:no-repeat;
+    float:center;
+    image-rendering: optimizeQuality;
+    margin:10px;
+}
+.copyright{
+    height: 80px;
+    width: 100%;
+    float:left;
+    margin-top: 50px;
+}
+.copyright h2,h3{
+    bottom:0px;
+    object-position: bottom;
+    color:white;
+    text-align: center;
+    text-transform: uppercase;
+}
+.top{
+    height: 50px;
+    width: 40px;
+    float:right;
+    margin-right: 20px;
+}
+.top h1{
+    text-align: center;
+    float: right;
+    margin: 0 10px 5px 0;
+    color:white;
+    text-decoration: none;
+}
+.top:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+    transition: 1s ease-in-out;
+}

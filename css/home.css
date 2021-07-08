@@ -1,0 +1,270 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+
+.tabs ul{
+    margin:0;
+    padding:20;
+    position: absolute;
+    list-style: none;
+    height:60px;
+    margin-left: 40%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+.tabs ul li{
+ 
+    display: inline-block;
+}
+.tabs ul li a{
+    display: block;
+    padding:10px 28px;
+    color:white;
+    text-decoration: none;
+    transition: 1s all;
+}
+.tabs a:hover, .active a{
+    color:yellow;
+    background-color: gray;
+    border-radius: 10px;
+}
+.tabs a:hover::after{
+    content: '';
+    display:block;
+    width: 100%;
+    height: 2px;
+    background-color: yellow;
+}
+.logo img{
+ 
+    padding: 10px 0 0 10px;
+    width: 200px;
+    height: 70px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: 30px;
+    float:left;
+    object-position: top;
+    image-rendering: optimizeQuality ;
+}
+.banner{
+    background-image: linear-gradient(rgb(63, 8, 8,0.7),rgb(63, 8, 8,0.7)),url(../images/lauren-kay-Z819bGz43B8-unsplash.jpg);
+    height: 550px;
+    width: 100%;
+    background-size: cover;
+    background-position-y: 80%;
+    background-repeat: no-repeat;
+    image-rendering: optimizeSpeed;
+    background-clip: content-box;
+}
+.bannertext{
+    position: absolute;
+    color: white;
+    top: 60%;
+    left: 10px;
+}
+.bannertext h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+  
+}
+.dntbtn{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#fff;
+    text-align:left;
+    border:1px solid #fff;
+    padding:12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    letter-spacing: 11px;
+}
+.dntbtn:hover{
+    border:1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
+.imagearea{
+    width: 100%;
+    height: 700px;
+    background-image: url(../images/vector1.jpg);
+    background-position: right;
+    background-size: cover;
+}
+.imagetxt{
+    position: absolute;
+    top: 100%;
+    left:75%;
+}
+.imagetxt h2{
+    font-family:  'Indie Flower', cursive;
+    font-size: 100px;
+    text-align: left;
+    color: rgb(63, 8, 8);
+}
+.post{
+    height: 800px;
+    width: 100%;
+    background-color: rgb(219, 219, 219);
+    background-size: cover;
+    background-position: center;
+}
+.posttxt{
+    position: absolute;
+    left: 35%;
+}
+.posttxt h2{
+    color:white;
+    border-bottom:2px solid #fff;
+    border-right:2px solid #fff;
+    border-radius: 20px;
+    background-color: rgb(93, 192, 231);
+    padding: 0 30px;
+    margin-top: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+}
+
+.post-main{
+    height: 390px;
+    width:300px;
+    border-radius: 10px;
+    float:left;
+    margin:250px 0 0 30px;
+}
+.post-main .img-main{
+    width: 300px;
+    height: 200px;
+    background-image: url(../images/helping\ hand.png);
+    background-size:contain ;
+    background-repeat: no-repeat;
+    background-position: 30px;
+    float:left;
+    object-position: top;
+    image-rendering: optimizeQuality ;
+    margin: 10px 0 0 20px;
+}
+.post-main:hover, .post1:hover, .post2:hover, .post3:hover{
+    box-shadow: 5px 15px 30px #000;
+    transition: all 1s ease-in-out;
+}
+.img-main-txt h2{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 40px;
+    color: gray;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;   
+    margin: 10px;
+    padding-top: 10px;
+}
+.postimg1{
+    width: 300px;
+    height: 200px;
+    background-image: url(../images/home-icon.png);
+    background-size:contain ;
+    background-repeat: no-repeat;
+    background-position: 30px;
+    float:left;
+    object-position: top;
+    image-rendering: optimizeQuality ;
+    margin: 10px 0 0 20px;
+}
+.postimg2{
+    width: 300px;
+    height: 200px;
+    background-image: url(../images/donation.png);
+    background-size:contain ;
+    background-repeat: no-repeat;
+    background-position: 30px;
+    float:left;
+    object-position: top;
+    image-rendering: optimizeQuality ;
+    margin: 10px 0 0 20px;
+}
+.postimg3{
+    width: 300px;
+    height: 200px;
+    background-image: url(../images/goals.png);
+    background-size:contain ;
+    background-repeat: no-repeat;
+    background-position: 30px;
+    float:left;
+    object-position: top;
+    image-rendering: optimizeQuality ;
+    margin: 10px 0 0 20px;
+}
+.footer{
+    height: 400px;
+    background-color: rgb(10, 10, 10);
+}
+.donate img, .fa img{
+    height: 150px;
+    width: 350px;
+    background-size:contain ;
+    background-repeat: no-repeat;
+    float:left;
+    object-position: top;
+    image-rendering:crisp-edges ;
+    margin: 30px;
+}
+.socialtxt h3{
+    color:#fff;
+    text-align: center;
+    padding: 50px 30 30 30;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.socialbtns{
+    float:right;
+    height: 40px;
+    width: 390px;
+}
+.facebook img{
+    height: 50px;
+    width: 50px;
+    background-size:contain;
+    background-repeat:no-repeat;
+    float:center;
+    image-rendering: optimizeQuality;
+    margin:10px;
+}
+.copyright{
+    height: 80px;
+    width: 100%;
+    float:left;
+    margin-top: 50px;
+}
+.copyright h2,h3{
+    bottom:0px;
+    object-position: bottom;
+    color:white;
+    text-align: center;
+    text-transform: uppercase;
+}
+.top{
+    height: 50px;
+    width: 40px;
+    float:right;
+    margin-right: 20px;
+}
+.top h1{
+    text-align: center;
+    float: right;
+    margin: 0 10px 5px 0;
+    color:white;
+    text-decoration: none;
+}
+.top:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+    transition: 1s ease-in-out;
+}
